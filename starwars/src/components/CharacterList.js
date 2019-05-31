@@ -10,6 +10,7 @@ const CharacterList = props => {
                         key={item.created}
                         name={item.name}
                         eye={item.eye_color}
+                        gender={item.gender}
                     />
                 );
             })}
