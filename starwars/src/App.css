@@ -9,12 +9,14 @@
 }
 /* write your parent styles in here for your App.js */
 .element{
-  background: black;
-  color: yellow;
-  margin: 0 20%;
+  margin: 0;
 }
 .item{
-  margin: 40px;
+  margin: 30px  20%;
+  background: black;
+  color: yellow;
+  border-radius: 6px;
+  padding: 10px 0;
 }
 .item:last-child{
   display: none;
