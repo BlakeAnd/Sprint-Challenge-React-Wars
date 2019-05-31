@@ -12,8 +12,11 @@
   background: black;
   color: yellow;
   margin: 0 20%;
-  width:;
 }
 .item{
   margin: 40px;
 }
+.item:last-child{
+  display: none;
+}
+
