@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CharacterItem = props => {
-    console.log(props.item);
     return(
         <div class="item">
             <p className="element">name: {props.name}</p>
@@ -9,5 +8,5 @@ const CharacterItem = props => {
         </div>
     );
 }
-//
+
 export default CharacterItem;
